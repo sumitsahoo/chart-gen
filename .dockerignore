@@ -1,0 +1,57 @@
+# Dockerfile
+Dockerfile*
+docker-compose.yml
+.dockerignore
+
+# Ignore Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv.bak/
+__pycache__/
+.python-version
+
+# Ignore pipenv files
+Pipfile
+Pipfile.lock
+
+# Ignore pip cache
+pip-cache/
+
+# Ignore Python compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Python distribution / packaging files
+dist/
+build/
+*.egg-info/
+
+# Ignore system-specific files
+*.zip
+*.sql
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+
+# Ignore Git files
+.git/
+.gitignore
+.gitattributes
+
+# Ignore editor / IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
