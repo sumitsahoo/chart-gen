@@ -4,6 +4,7 @@ audio
 .audio
 *.zip
 *.whl
+
 # macOS
 .DS_Store
 
@@ -112,7 +113,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-
+.env
 .venv
 env/
 venv/
