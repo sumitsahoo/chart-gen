@@ -10,7 +10,7 @@ readme = "README.md"
 python = "^3.11"
 python-dotenv = "^1.0.0"
 openai = "^1.2.4"
-gradio = "^4.2.0"
+gradio = "^4.3.0"
 rich = "^13.6.0"
 
 
