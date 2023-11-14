@@ -20,7 +20,7 @@ Generate charts using OpenAI 3.5 Turbo and Code Interpreter [WIP]
     ```bash
     poetry install
     ```
-3. Activate the virtual environment and enter into shell
+3. Activate the virtual environment and enter into the shell
     ```bash
     poetry shell
     ```    
