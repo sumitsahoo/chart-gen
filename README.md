@@ -36,6 +36,7 @@ poetry export -f requirements.txt --output requirements.txt --without-hashes
 ```
 
 ## Attributions
+<a href="https://www.gradio.app/" title="gradio ui">UI is built using Gradio</a><br>
 <a href="https://www.flaticon.com/free-icons/pie-chart" title="pie chart icons">Pie chart icons created by Pixel perfect - Flaticon</a>
 
 ## License
