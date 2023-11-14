@@ -48,7 +48,7 @@ class ChartUI:
                     gr.Image(label="Generated Chart"),
                     gr.Markdown(label="Chart Description"),
                 ],
-                allow_flagging=False,
+                allow_flagging="never",
             )
 
         chart_gen.queue().launch(

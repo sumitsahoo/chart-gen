@@ -11,7 +11,7 @@ class ChartUtil:
         self.client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
         self.chart_out_path = "./outputs/chart.png"
 
-    def generate_chart(self, message, history):
+    def generate_chart(self, message):
         # Prepare the prompt
         ci_prompt = "Please generate a chart using following data: \n" + message
 
