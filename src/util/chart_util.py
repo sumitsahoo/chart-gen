@@ -9,16 +9,11 @@ class ChartUtil:
     def __init__(self):
         self.log = LogUtil()
         self.client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
-        # self.assistant = self.client.beta.assistants.create(
-        #     name="ChartGen",
-        #     instructions="You are great at creating beautiful data visualizations. You analyze data and come up with data visualizations relevant to the data. You also share a brief text summary of the data visualization.",
-        #     model="gpt-4-1106-preview",
-        #     tools=[{"type": "code_interpreter"}],
-        # )
+        self.chart_out_path = "./outputs/chart.png"
 
     def generate_chart(self, message, history):
         # Prepare the prompt
-        ci_prompt = "Please generate a chart using following data: " + message
+        ci_prompt = "Please generate a chart using following data: \n" + message
 
         try:
             # Create a thread and run the assistant
@@ -52,7 +47,9 @@ class ChartUtil:
                     )
 
                     # Get the latest message in the thread and retrieve file id
+                    self.log.info(messages.data[0])
                     image_file_id = messages.data[0].content[0].image_file.file_id
+                    content_description = messages.data[0].content[1].text.value
 
                     # Get the raw response from the file id
                     raw_response = self.client.files.with_raw_response.content(
@@ -65,7 +62,7 @@ class ChartUtil:
                     # Save the generated chart to a file
                     with open(self.chart_out_path, "wb") as f:
                         f.write(raw_response.content)
-                        return (self.chart_out_path,)
+                        return (self.chart_out_path, content_description)
 
                 elif run.status == "failed":
                     self.log.error("Unable to generate chart")
@@ -76,4 +73,4 @@ class ChartUtil:
         except Exception as e:
             self.log.error(e)
 
-        return "🤔 Could you please rephrase your query and try again?"
+        return (None, "🤔 Could you please rephrase your query and try again?")
