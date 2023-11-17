@@ -26,7 +26,7 @@ class ChartUtil:
                 ]
             )
 
-            # Run the assistant
+            # Run the thread
             run = self.client.beta.threads.runs.create(
                 assistant_id=os.environ["OPENAI_ASSISTANT_ID"], thread_id=thread.id
             )
