@@ -1,5 +1,5 @@
 # ChartGen
-Generate charts using OpenAI 3.5 Turbo and Code Interpreter with Assistant API.
+Generate charts using OpenAI 3.5 Turbo and Code Interpreter with Assistants API.
 
 ## Dependency Installation
 
