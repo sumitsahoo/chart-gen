@@ -4,6 +4,8 @@ More on Assistants API: https://platform.openai.com/docs/assistants/overview
 
 ## Dependency Installation
 
+You need `Python 3.12.0` installed in your system. If you are using `pyenv` then check the version using command: `pyenv version`
+
 1. Install poetry
     ```bash
     # Using pip
