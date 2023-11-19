@@ -4,6 +4,8 @@ audio
 .audio
 *.zip
 *.whl
+flagged
+outputs/*.png
 
 # macOS
 .DS_Store
