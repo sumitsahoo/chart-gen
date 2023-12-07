@@ -1,7 +1,9 @@
 # ChartGen
 Generate charts using OpenAI 3.5 Turbo and Code Interpreter with Assistants API.<br>
-View my Medium article on ChartGen here: https://medium.com/@sumitsahoo/generate-charts-using-openai-code-interpreter-88cb93a06da0<br>
 More on Assistants API: https://platform.openai.com/docs/assistants/overview
+
+## Medium Article
+View my Medium article on ChartGen here: https://medium.com/@sumitsahoo/generate-charts-using-openai-code-interpreter-88cb93a06da0
 
 ## Dependency Installation
 
