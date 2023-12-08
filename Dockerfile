@@ -2,7 +2,7 @@
 # Builder image
 ##########################################################################################
 # Using python debian slim version
-FROM python:3.11.6-slim AS builder-image
+FROM python:3.12-slim AS builder-image
 
 # Update and install dependencies
 RUN apt-get update -y \
@@ -14,7 +14,7 @@ RUN apt-get update -y \
 
 # Create and activate virtual environment
 # Using final folder name to avoid path issues with packages
-RUN python3.11 -m venv /home/appuser/venv
+RUN python3.12 -m venv /home/appuser/venv
 ENV PATH="/home/appuser/venv/bin:$PATH"
 
 # Install python dependencies
@@ -28,7 +28,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 # Runner image
 ##########################################################################################
 # Using python debian slim version
-FROM python:3.11.6-slim AS runner-image
+FROM python:3.12-slim AS runner-image
 
 # Update and install dependencies
 RUN apt-get update -y \
