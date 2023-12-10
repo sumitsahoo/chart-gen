@@ -17,26 +17,26 @@ You need `Python 3.12.0` installed in your system. If you are using `pyenv` then
     # Using brew (macOS), if you are using pyenv you should use `pip install poetry`
     brew install poetry
     ```
-2. Install the dependencies and create virtual environment
-    Make poetry create virtual environment within project folder
+2. Set poetry to create virtual environment within project folder
     ```bash
     poetry config virtualenvs.in-project true
     ```
-    Now, install dependency and create the environment
+3. Install dependency and create the virtual environment
     ```bash
     poetry install
-    ```
-3. Activate the virtual environment and enter into the shell
-    ```bash
-    poetry shell
-    ```    
-4. Run the app
+    ``` 
+4. Run the app with poetry
     ```python
-    python3 main.py
+    poetry run python main.py
     ```
 To update dependencies use: `poetry update`<br>
 To view virtual environment location, use: `poetry env info --path`<br>
-To generate `requirements.txt` using poetry, use below command:
+To generate `requirements.txt` using poetry, you need to have export plugin installed.<br>
+Install the plugin:
+```bash
+poetry self add poetry-plugin-export
+```
+Once the plugin is installed, use `export` command to generate `requirements.txt`
 ```bash
 poetry export -f requirements.txt --output requirements.txt --without-hashes
 ```
