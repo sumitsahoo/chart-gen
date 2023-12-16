@@ -455,13 +455,13 @@ tqdm = ["tqdm"]
 
 [[package]]
 name = "gradio"
-version = "4.8.0"
+version = "4.10.0"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio-4.8.0-py3-none-any.whl", hash = "sha256:7dd8597e560d38d1fa91c60891246b3eec71171a041893905a725d385200604d"},
-    {file = "gradio-4.8.0.tar.gz", hash = "sha256:c0c9d8f50128410af93631709d7d2efd8ef8a1a7658ba87965ae0522a3735691"},
+    {file = "gradio-4.10.0-py3-none-any.whl", hash = "sha256:7595185716aff430381d010087d6ebc4eadef06fefc3dc1cfa76edcdd2c109db"},
+    {file = "gradio-4.10.0.tar.gz", hash = "sha256:d4ca039aa7f5c2783b2bbf7b465153c80bb4257edcca4d8b9c59ce6f61a75b97"},
 ]
 
 [package.dependencies]
@@ -469,9 +469,9 @@ aiofiles = ">=22.0,<24.0"
 altair = ">=4.2.0,<6.0"
 fastapi = "*"
 ffmpy = "*"
-gradio-client = "0.7.1"
+gradio-client = "0.7.3"
 httpx = "*"
-huggingface-hub = ">=0.14.0"
+huggingface-hub = ">=0.19.3"
 importlib-resources = ">=1.3,<7.0"
 jinja2 = "<4.0"
 markupsafe = ">=2.0,<3.0"
@@ -485,7 +485,6 @@ pydantic = ">=2.0"
 pydub = "*"
 python-multipart = "*"
 pyyaml = ">=5.0,<7.0"
-requests = ">=2.0,<3.0"
 semantic-version = ">=2.0,<3.0"
 tomlkit = "0.12.0"
 typer = {version = ">=0.9,<1.0", extras = ["all"]}
@@ -497,21 +496,20 @@ oauth = ["authlib", "itsdangerous"]
 
 [[package]]
 name = "gradio-client"
-version = "0.7.1"
+version = "0.7.3"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio_client-0.7.1-py3-none-any.whl", hash = "sha256:65bd0bc2ebe3f4d1e9e2936852d701b45dc989d08bf590ed6ce76163019016cf"},
-    {file = "gradio_client-0.7.1.tar.gz", hash = "sha256:21f4c3fc38bfba113ee59092f782195c19399aa114bdca642bd45c4bf1c5a062"},
+    {file = "gradio_client-0.7.3-py3-none-any.whl", hash = "sha256:b91073770470ceb9f284977064c35bc0cffaf868eb887bf352db77aa01fe342a"},
+    {file = "gradio_client-0.7.3.tar.gz", hash = "sha256:8146a1d19a125b38088dd201ddacd0008ea47ef9b0504d1c5b87ca09a43f4dcd"},
 ]
 
 [package.dependencies]
 fsspec = "*"
 httpx = "*"
-huggingface-hub = ">=0.13.0"
+huggingface-hub = ">=0.19.3"
 packaging = "*"
-requests = ">=2.0,<3.0"
 typing-extensions = ">=4.0,<5.0"
 websockets = ">=10.0,<12.0"
 
@@ -994,13 +992,13 @@ files = [
 
 [[package]]
 name = "openai"
-version = "1.3.8"
+version = "1.4.0"
 description = "The official Python library for the openai API"
 optional = false
 python-versions = ">=3.7.1"
 files = [
-    {file = "openai-1.3.8-py3-none-any.whl", hash = "sha256:ac5a17352b96db862390d2e6f51de9f7eb32e733f412467b2f160fbd3d0f2609"},
-    {file = "openai-1.3.8.tar.gz", hash = "sha256:54963ff247abe185aad6ee443820e48ad9f87eb4de970acb2514bc113ced748c"},
+    {file = "openai-1.4.0-py3-none-any.whl", hash = "sha256:173e2a63822e73d6a8c971adacd98ed350301be755617b61b47d39e05b90a3f0"},
+    {file = "openai-1.4.0.tar.gz", hash = "sha256:b5561e897bf6b42d3876552e06ce0e7960688791ec4090ed0e780e56fe3f1848"},
 ]
 
 [package.dependencies]
