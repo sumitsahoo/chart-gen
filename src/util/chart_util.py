@@ -1,8 +1,9 @@
-from openai import OpenAI
-from src.util.log_util import LogUtil
-
 import os
 import time
+
+from openai import OpenAI
+
+from src.util.log_util import LogUtil
 
 
 class ChartUtil:

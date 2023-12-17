@@ -1,7 +1,7 @@
 import gradio as gr
-import os
-from src.util.log_util import LogUtil
+
 from src.util.chart_util import ChartUtil
+from src.util.log_util import LogUtil
 
 
 class ChartUI:
