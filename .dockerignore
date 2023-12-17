@@ -35,6 +35,7 @@ build/
 *.zip
 *.sql
 
+.ruff_cache/
 .DS_Store
 Thumbs.db
 ehthumbs.db

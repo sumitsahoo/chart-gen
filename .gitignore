@@ -6,6 +6,7 @@ audio
 *.whl
 flagged
 outputs/*.png
+.ruff_cache/
 
 # macOS
 .DS_Store
