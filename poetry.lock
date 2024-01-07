@@ -455,13 +455,13 @@ tqdm = ["tqdm"]
 
 [[package]]
 name = "gradio"
-version = "4.12.0"
+version = "4.13.0"
 description = "Python library for easily interacting with trained machine learning models"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "gradio-4.12.0-py3-none-any.whl", hash = "sha256:a8e18e8c7004574df26e1ae1d99bb20a6921693f9d922978848c25b31d3f7f5b"},
-    {file = "gradio-4.12.0.tar.gz", hash = "sha256:ea982139d3cee6542c18d8f52295395b19124c14e6e78d28e19417d6fd6f838c"},
+    {file = "gradio-4.13.0-py3-none-any.whl", hash = "sha256:113dfcea2ee78195fb87264ef053a3fe2fb80fcad7573693a2acdeafc98b28ba"},
+    {file = "gradio-4.13.0.tar.gz", hash = "sha256:3ebc5f4b2d7126b42d1f36b937c44703e94991b40cb8f20338227a826048d349"},
 ]
 
 [package.dependencies]
@@ -571,13 +571,13 @@ socks = ["socksio (==1.*)"]
 
 [[package]]
 name = "huggingface-hub"
-version = "0.20.1"
+version = "0.20.2"
 description = "Client library to download and publish models, datasets and other repos on the huggingface.co hub"
 optional = false
 python-versions = ">=3.8.0"
 files = [
-    {file = "huggingface_hub-0.20.1-py3-none-any.whl", hash = "sha256:ecfdea395a8bc68cd160106c5bd857f7e010768d95f9e1862a779010cc304831"},
-    {file = "huggingface_hub-0.20.1.tar.gz", hash = "sha256:8c88c4c3c8853e22f2dfb4d84c3d493f4e1af52fb3856a90e1eeddcf191ddbb1"},
+    {file = "huggingface_hub-0.20.2-py3-none-any.whl", hash = "sha256:53752eda2239d30a470c307a61cf9adcf136bc77b0a734338c7d04941af560d8"},
+    {file = "huggingface_hub-0.20.2.tar.gz", hash = "sha256:215c5fceff631030c7a3d19ba7b588921c908b3f21eef31d160ebc245b200ff6"},
 ]
 
 [package.dependencies]
@@ -1521,13 +1521,13 @@ files = [
 
 [[package]]
 name = "referencing"
-version = "0.32.0"
+version = "0.32.1"
 description = "JSON Referencing + Python"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "referencing-0.32.0-py3-none-any.whl", hash = "sha256:bdcd3efb936f82ff86f993093f6da7435c7de69a3b3a5a06678a6050184bee99"},
-    {file = "referencing-0.32.0.tar.gz", hash = "sha256:689e64fe121843dcfd57b71933318ef1f91188ffb45367332700a86ac8fd6161"},
+    {file = "referencing-0.32.1-py3-none-any.whl", hash = "sha256:7e4dc12271d8e15612bfe35792f5ea1c40970dadf8624602e33db2758f7ee554"},
+    {file = "referencing-0.32.1.tar.gz", hash = "sha256:3c57da0513e9563eb7e203ebe9bb3a1b509b042016433bd1e45a2853466c3dd3"},
 ]
 
 [package.dependencies]
@@ -1966,4 +1966,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "20202192ee361a893947e0d9d7087bb0cb99c7c32074fc1e8ef3c686763243bb"
+content-hash = "67604a5f236db7fa84def189023c087c12bcdd1e3d9552fc6e346294e9b5992f"
