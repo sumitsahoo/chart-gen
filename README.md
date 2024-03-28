@@ -1,11 +1,11 @@
-# ChartGen
-Generate charts using OpenAI 3.5 Turbo and Code Interpreter with Assistants API.<br>
+# 📊 ChartGen
+Generate charts using OpenAI (gpt-3.5-turbo-0125 or gpt-4-0125-preview) and Code Interpreter with Assistants API.<br>
 More on Assistants API: https://platform.openai.com/docs/assistants/overview
 
-## Medium Article
+## 📖 Medium Article
 View my Medium article on ChartGen here: https://medium.com/@sumitsahoo/generate-charts-using-openai-code-interpreter-88cb93a06da0
 
-## Dependency Installation
+## 📦 Dependency Installation
 
 You need `Python 3.12.2` installed in your system. If you are using `pyenv` then check the version using command: `pyenv version`
 
@@ -41,11 +41,11 @@ Once the plugin is installed, use `export` command to generate `requirements.txt
 poetry export -f requirements.txt --output requirements.txt --without-hashes
 ```
 
-## Attributions
+## 🙏🏻 Attributions
 <a href="https://www.gradio.app/" title="gradio ui">UI is built using Gradio</a><br>
 <a href="https://www.flaticon.com/free-icons/pie-chart" title="pie chart icons">Pie chart icons created by Pixel perfect - Flaticon</a>
 
-## License
+## 📜 License
 
 MIT License
 
