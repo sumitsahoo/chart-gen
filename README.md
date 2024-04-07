@@ -11,11 +11,8 @@ You need `Python 3.12.2` installed in your system. If you are using `pyenv` then
 
 1. Install poetry
     ```bash
-    # Using pip
-    pip install poetry
-    
-    # Using brew (macOS), if you are using pyenv you should use `pip install poetry`
-    brew install poetry
+    # Linux, macOS, Windows (WSL): https://python-poetry.org/docs/#installing-with-the-official-installer
+    curl -sSL https://install.python-poetry.org | python3 -
     ```
 2. Set poetry to create virtual environment within project folder
     ```bash

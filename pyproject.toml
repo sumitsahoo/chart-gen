@@ -9,8 +9,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 python-dotenv = "^1.0.1"
-openai = "^1.16.0"
-gradio = "^4.24.0"
+openai = "^1.16.2"
+gradio = "^4.25.0"
 rich = "^13.7.1"
 setuptools = "^68.2.2"
 
