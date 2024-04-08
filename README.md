@@ -26,14 +26,22 @@ You need `Python 3.12.2` installed in your system. If you are using `pyenv` then
     ```python
     poetry run python main.py
     ```
+
 To update dependencies use: `poetry update`<br>
+If you want to update dependencies in `pyproject.toml`, then you need to install plugin `poetry-plugin-up`. Use command below:
+
+```bash
+poetry self add poetry-plugin-up
+```
+Once installed, use command `poetry up` to install updates and edit `pyproject.toml` automatically.<br>
 To view virtual environment location, use: `poetry env info --path`<br>
-To generate `requirements.txt` using poetry, you need to have export plugin installed.<br>
+To generate `requirements.txt` using poetry, you need to have an export plugin installed.<br>
+
 Install the plugin:
 ```bash
 poetry self add poetry-plugin-export
 ```
-Once the plugin is installed, use `export` command to generate `requirements.txt`
+Once the plugin is installed, use the `export` command to generate `requirements.txt`
 ```bash
 poetry export -f requirements.txt --output requirements.txt --without-hashes
 ```
