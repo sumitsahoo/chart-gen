@@ -2,7 +2,7 @@
 # Builder image
 ##########################################################################################
 # Using python debian slim version
-FROM python:3.12.2-slim AS builder-image
+FROM python:3.12.3-slim AS builder-image
 
 # Update and install dependencies
 RUN apt-get update -y \
@@ -28,7 +28,7 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 # Runner image
 ##########################################################################################
 # Using python debian slim version
-FROM python:3.12.2-slim AS runner-image
+FROM python:3.12.3-slim AS runner-image
 
 # Update and install dependencies
 RUN apt-get update -y \
