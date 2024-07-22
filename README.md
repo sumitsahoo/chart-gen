@@ -46,6 +46,10 @@ Once the plugin is installed, use the `export` command to generate `requirements
 poetry export -f requirements.txt --output requirements.txt --without-hashes
 ```
 
+## 📈 Stats (Star History)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=sumitsahoo/chart-gen&type=Date)](https://star-history.com/#sumitsahoo/chart-gen&Date)
+
 ## 🙏🏻 Attributions
 <a href="https://www.gradio.app/" title="gradio ui">UI is built using Gradio</a><br>
 <a href="https://www.flaticon.com/free-icons/pie-chart" title="pie chart icons">Pie chart icons created by Pixel perfect - Flaticon</a>
