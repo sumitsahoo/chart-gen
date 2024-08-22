@@ -14,6 +14,11 @@ gradio = "^4.41.0"
 rich = "^13.7.1"
 setuptools = "^68.2.2"
 
+# Add venv directory information for Zed code editor
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+
 
 [build-system]
 requires = ["poetry-core"]
