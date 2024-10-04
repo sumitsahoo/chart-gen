@@ -9,9 +9,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 python-dotenv = "^1.0.1"
-openai = "^1.50.2"
-gradio = "^4.44.0"
-rich = "^13.8.1"
+openai = "^1.51.0"
+gradio = "^4.44.1"
+rich = "^13.9.2"
 setuptools = "^68.2.2"
 
 # Add venv directory information for Zed code editor
