@@ -33,12 +33,13 @@ class ChartUI:
             # css=custom_css,
         ) as chart_gen:
             gr.Image(
-                "./images/logo.svg",
+                "./images/logo.png",
                 height=80,
                 width=400,
                 interactive=False,
                 container=False,
                 show_download_button=False,
+                show_fullscreen_button=False,
             )
 
             gr.Interface(
