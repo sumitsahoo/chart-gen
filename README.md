@@ -7,7 +7,7 @@ View my Medium article on ChartGen here: https://medium.com/@sumitsahoo/generate
 
 ## 📦 Dependency Installation
 
-You need `Python 3.12.4` installed in your system. If you are using `pyenv` then check the version using command: `pyenv version`
+You need `Python 3.12.7` installed in your system. If you are using `pyenv` then check the version using command: `pyenv version`
 
 1. Install poetry
     ```bash
